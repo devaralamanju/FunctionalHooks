@@ -1,0 +1,36 @@
+// App.scss
+$body-color: #333;
+$font-stact : Helvetica, sans-serif;
+$primary-color : #d63384;
+$color:#333;
+body {
+  font: 100% $font-stact ;
+  color: $color;
+}
+
+.container {
+  margin: 0 auto;
+  .header {
+    text-align: center;
+    background-color: #eee;
+  }
+}
+.navbar {
+  display: flex;
+    align-items: end;
+    justify-content: end;
+  ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+
+  }
+  li{
+    list-style-type: none;
+    padding:10px;
+    display: flex;
+    align-items: end;
+  }
+}
+
